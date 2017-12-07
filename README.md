@@ -18,10 +18,10 @@ delay-200 = 2 seconds<br />
 
 <h2>EASES</h2>
 ease (in/out/in-out)<br />
-quad (in/out/in-out)<br />
-quart (in/out/in-out)<br />
-expo (in/out/in-out)<br />
-back  (in/out/in-out)<br />
+ease-quad (in/out/in-out)<br />
+ease-quart (in/out/in-out)<br />
+ease-expo (in/out/in-out)<br />
+ease-back  (in/out/in-out)<br />
 
 <h2>EXAMPLES</h2>
 
