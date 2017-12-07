@@ -1,29 +1,29 @@
-#PAX-CSS-Animate
-###CSS Animation • Minimal Framework
-###
-##ANIMATIONS
-###fade (in/out)
-###slide (top/right/bottom/left) (in/out)
-###scale (in/out)
-###
-##LENGTHS
-###*In Centiseconds*
-###length-10 = .1 seconds
-###length-200 = 2 seconds
-###
-##DELAYS
-###*In Centiseconds*
-###delay-10 = .1 seconds
-###delay-200 = 2 seconds
-###
-##EASES
-###ease (in/out/in-out)
-###quad (in/out/in-out)
-###quart (in/out/in-out)
-###expo (in/out/in-out)
-###back  (in/out/in-out)
-###
-##EXAMPLES
+<h1>PAX-CSS-Animate</h1>
+<p>CSS Animation • Minimal Framework</p>
+
+<h2>ANIMATIONS</h2>
+fade (in/out)<br />
+slide (top/right/bottom/left) (in/out)<br />
+scale (in/out)<br />
+
+<h2>LENGTHS</h2>
+*In Centiseconds*<br />
+length-10 = .1 seconds<br />
+length-200 = 2 seconds<br />
+
+<h2>DELAYS</h2>
+*In Centiseconds*<br />
+delay-10 = .1 seconds<br />
+delay-200 = 2 seconds<br />
+
+<h2>EASES</h2>
+ease (in/out/in-out)<br />
+quad (in/out/in-out)<br />
+quart (in/out/in-out)<br />
+expo (in/out/in-out)<br />
+back  (in/out/in-out)<br />
+
+<h2>EXAMPLES</h2>
 ```html
 <h1 class='animate fade-in length-50 ease-quad-in'>Header</h1>
 <h2 class='animate slide-bottom-in length-50 delay-10'>Sub Head</h1>
