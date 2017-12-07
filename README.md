@@ -24,6 +24,7 @@ expo (in/out/in-out)<br />
 back  (in/out/in-out)<br />
 
 <h2>EXAMPLES</h2>
+
 ```html
 <h1 class='animate fade-in length-50 ease-quad-in'>Header</h1>
 <h2 class='animate slide-bottom-in length-50 delay-10'>Sub Head</h1>
