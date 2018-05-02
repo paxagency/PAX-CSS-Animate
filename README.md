@@ -3,6 +3,7 @@
 
 <h2>ANIMATIONS</h2>
 fade (in/out)<br />
+move (top/right/bottom/left) <br />
 slide (top/right/bottom/left) (in/out)<br />
 scale (in/out)<br />
 
