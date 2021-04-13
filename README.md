@@ -22,6 +22,7 @@
 .shake<br />
 .morph<br />
 .floating<br /><br />
+.animate (begin animation)<br />
 .reverse (reverse animation)<br />
 .infinite (make animation infinite)
 <br /><br />
