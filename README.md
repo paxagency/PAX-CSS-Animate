@@ -21,17 +21,18 @@
 .rotate<br />
 .shake<br />
 .morph<br />
-.floating<br />
-.kenburns
+.floating<br /><br />
+.reverse (reverse animation)<br />
+.infinite (make animation infinite)
 <br /><br />
 
 <h2>LENGTHS</h2>
-*In Centiseconds*<br />
+*In Milliseconds*<br />
 length-100 = .1 seconds<br />
 length-2000 = 2 seconds<br />
 
 <h2>DELAYS</h2>
-*In Centiseconds*<br />
+*In Milliseconds*<br />
 delay-100 = .1 seconds<br />
 delay-2000 = 2 seconds<br />
 
