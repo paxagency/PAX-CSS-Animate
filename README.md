@@ -9,13 +9,13 @@ scale (in/out)<br />
 
 <h2>LENGTHS</h2>
 *In Centiseconds*<br />
-length-10 = .1 seconds<br />
-length-200 = 2 seconds<br />
+length-100 = .1 seconds<br />
+length-2000 = 2 seconds<br />
 
 <h2>DELAYS</h2>
 *In Centiseconds*<br />
-delay-10 = .1 seconds<br />
-delay-200 = 2 seconds<br />
+delay-100 = .1 seconds<br />
+delay-2000 = 2 seconds<br />
 
 <h2>EASES</h2>
 ease (in/out/in-out)<br />
@@ -27,7 +27,7 @@ ease-back  (in/out/in-out)<br />
 <h2>EXAMPLES</h2>
 
 ```html
-<h1 class='animate fade-in length-50 ease-quad-in'>Header</h1>
-<h2 class='animate slide-bottom-in length-50 delay-10'>Sub Head</h1>
-<p class='animate slide-left-in  delay-50'>This is my paragraph</p>
+<h1 class='animate fade-in length-5000 ease-quad-in'>Header</h1>
+<h2 class='animate slide-bottom-in length-5000 delay-600'>Sub Head</h1>
+<p class='animate slide-left-in  length-2000 delay-500'>This is my paragraph</p>
 ```
