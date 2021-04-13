@@ -2,28 +2,28 @@
 <p>CSS Animation • Minimal Framework</p>
 
 <h2>ANIMATIONS</h2>
-.fade
-.grow
-.bulge
-.bounce
-.scale
-.scale-big
-.scale-small
-.move-top
-.move-left
-.move-right
-.move-bottom
-.slide-top
-.slide-left
-.slide-right
-.slide-bottom
-.pulse
-.rotate
-.shake
-.morph
-.floating
+.fade<br />
+.grow<br />
+.bulge<br />
+.bounce<br />
+.scale<br />
+.scale-big<br />
+.scale-small<br />
+.move-top<br />
+.move-left<br />
+.move-right<br />
+.move-bottom<br />
+.slide-top<br />
+.slide-left<br />
+.slide-right<br />
+.slide-bottom<br />
+.pulse<br />
+.rotate<br />
+.shake<br />
+.morph<br />
+.floating<br />
 .kenburns
-<br />
+<br /><br />
 
 <h2>LENGTHS</h2>
 *In Centiseconds*<br />
