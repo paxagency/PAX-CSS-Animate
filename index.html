@@ -1,0 +1,224 @@
+<!doctype html>
+<html>
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>PAX Animate</title>
+<link rel="stylesheet" href="pax-animate.css">
+<style>
+	body {height:100%;line-height:1.5em;letter-spacing:-1px; font-size:150%; font-family:arial;text-align:center;}
+	.wrap{ padding:40px 5%; }
+	.box {
+		width:800px;
+		height:400px;
+		position:absolute;
+		top:-100px; 
+		right:-100px;;
+		z-index:-1;
+		background:pink;
+	}
+	.box-container {
+		left:0; top:0; overflow:hidden;width:100%; height:400px;position:absolute;
+	}
+	h1 {font-size:400%;letter-spacing:-5px;}
+	.quote {padding:40px; border-radius:10px; max-width:600px; margin:80px auto; box-shadow:0 0 70px rgba(0,0,0,.2);}
+	button {
+		font-size:21px;
+		padding:15px 30px;
+	}
+	table {margin:0 auto;}
+	table tbody td {text-align:left;padding:10px; font-size:16px;letter-spacing:0;border:solid thin #eee;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+	<div class="box-container"><div class="morph box"></div></div>
+	<h1 class="animate grow speed-1000">PAX ANIMATE</h1>
+	<h2 class="animate move-left speed-2500 delay-200">A CSS animation class</h2>
+	<p class="animate move-bottom speed-1500 delay-600">Easily create  animations simply using classes. <br />Visit the <a href="https://github.com/paxagency/PAX-CSS-animate">Github</a> repo for the most recent version.</p>
+
+	<div class='quote floating'>
+		<h2><span>Design</span> is the birth place of  public <span>perception</span>.
+		<br><br><em>-PAUL RAND</em></h2>
+	</div>
+
+	<div class="buttons">
+		<button>.fade</button>
+		<button>.grow</button>
+		<button>.bulge</button>
+		<button>.bounce</button>
+		<button>.scale</button>
+		<button>.scale-big</button>
+		<button>.scale-small</button>
+		<button>.move-top</button>
+		<button>.move-left</button>
+		<button>.move-right</button>
+		<button>.move-bottom</button>
+		<button>.slide-top</button>
+		<button>.slide-left</button>
+		<button>.slide-right</button>
+		<button>.slide-bottom</button>
+		<button>.pulse</button>
+		<button>.rotate</button>
+		<button>.shake</button>
+		<button>.morph</button>
+		<button>.floating</button>
+		<div style="overflow:hidden;display:inline-block;"><button>.kenburns</button></div>
+	</div>
+	<br /><br />
+	<table>
+		<thead>
+			<tr>
+				<td>Length</td>
+				<td>Delay</td>
+				<td>Ease</td>
+				<td>Options</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>.speed-100</td>
+				<td>.delay-100</td>
+				<td>.ease-linear</td>
+				<td>.infinite</td>
+			</tr>
+			<tr>
+				<td>.speed-200</td>
+				<td>.delay-200</td>
+				<td>.ease-in</td>
+				<td>.reverse</td>
+			</tr>
+			<tr>
+				<td>.speed-300</td>
+				<td>.delay-300</td>
+				<td>.ease-out</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>.speed-400</td>
+				<td>.delay-400</td>
+				<td>.ease-in-out</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>.speed-500</td>
+				<td>.delay-500</td>
+				<td>.ease-quad-in</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>.speed-600</td>
+				<td>.delay-600</td>
+				<td>.ease-quad-out</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>.speed-700</td>
+				<td>.delay-700</td>
+				<td>.ease-quad-in-out</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>.speed-800</td>
+				<td>.delay-800</td>
+				<td>.ease-quart-in</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>.speed-900</td>
+				<td>.delay-900</td>
+				<td>.ease-quart-out</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>.speed-1000</td>
+				<td>.delay-1000</td>
+				<td>.ease-quart-in-out</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>.speed-1500</td>
+				<td>.delay-1500</td>
+				<td>.ease-expo-in</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>.speed-2000</td>
+				<td>.delay-2000</td>
+				<td>.ease-expo-in</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>.speed-2500</td>
+				<td>.delay-2500</td>
+				<td>.ease-expo-out</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>.speed-3000</td>
+				<td>.delay-3000</td>
+				<td>.ease-expo-in-out</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>.speed-3500</td>
+				<td>.delay-3500</td>
+				<td>.ease-back-in</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>.speed-4000</td>
+				<td>.delay-4000</td>
+				<td>.ease-back-out</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>.speed-4500</td>
+				<td>.delay-4500</td>
+				<td>.ease-back-in-out</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>.speed-5000</td>
+				<td>.delay-5000</td>
+				<td></td>
+				<td></td>
+			</tr>
+		</tbody>
+	</table>
+
+	<pre class="animate move-right delay-100 language-php" style="text-align:left;color:#ccc;background:#222;border-radius:10px; padding:10px;"><code class=" language-php">
+	&lt;h1 class="animate grow speed-1000"&gt;PAX ANIMATE&lt;/h1&gt;
+	&lt;h2 class="animate move-left speed-2500 delay-200"&gt;A CSS animation class&lt;/h2&gt;
+
+	</code></pre>
+</div>
+<script   src="https://code.jquery.com/jquery-3.6.0.min.js"   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="   crossorigin="anonymous"></script>
+
+<script>
+var active = 0;
+$('button').on("mouseover",function(){
+	if(!$(this).hasClass("animate")) {
+		var self = this;
+		var ignore ={
+			morph:1,
+			rotate:1,
+			pulse:1,
+			shake:1,
+			kenburns:1,
+			floating:1
+		};
+		var cl = $(this).text().substring(1);
+		var animate = (ignore[cl]) ? "" : " animate";
+		$(self).attr("class",cl+animate);
+		setTimeout(function(){
+			$(self).attr("class","");
+		},1500);
+	}
+});
+
+</script>
+
+</body>
+</html>

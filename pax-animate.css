@@ -20,7 +20,7 @@
 .slide-bottom {-webkit-animation:slideBottom;animation:slideBottom;}
 
 .pulse {-webkit-animation: pulse 1s ease-out infinite;opacity: 0.5;}
-.rotate {animation:rotates 1s infinite linear; -webkit-animation: rotates 1s infinite linear;}
+.rotate {animation:rotate 1s infinite linear; -webkit-animation: rotate 1s infinite linear;}
 .shake {-webkit-animation: shake .5s forwards;animation: shake .5s forwards}
 .morph {-webkit-animation: morph 8s infinite reverse;animation: morph 8s infinite reverse;}
 .floating {-webkit-animation: float 3s ease-in-out infinite;animation: float 3s ease-in-out infinite;}
@@ -54,6 +54,7 @@
     -webkit-animation-fill-mode:forwards;
     -webkit-animation-timing-function:cubic-bezier(.165,.84,.44,1);
 }
+.animate.bounce,.animate.pulse,.animate.morph,.animate.shake,.animate.rotate,.animate.floating {opacity:1;}
 .animate.fade,.animate.scale-top,.animate.scale,.animate.scale-left,.animate.scale-bottom {animation-timing-function:ease-in;}
 /*REVERSE*/
 .animate.reverse{opacity:1; -webkit-animation-direction:reverse;animation-direction:reverse;}
@@ -168,6 +169,19 @@
 @keyframes rotate {from {transform:rotate(0deg);} to {transform:rotate(360deg);}}
 @-webkit-keyframes rotate {from { -webkit-transform: rotate(0deg); } to { -webkit-transform: rotate(360deg);}}
 
+@keyframes bounce {
+    0% {transform: translateY(0);}
+    20% {transform: translateY(10px);}
+    70% {transform: translateY(0px);}
+    to {transform: translateY(0);}
+}
+@-webkit-keyframes bounce {
+    0% {-webkit-transform: translateY(0);}
+    20% {-webkit-transform: translateY(10px);}
+    70% {-webkit-transform: translateY(0px);}
+    to {-webkit-transform: translateY(0);}
+}
+
 @keyframes morph {
     0% {border-radius:38% 62% 40% 60%/47% 41% 59% 53%;}
 	33% {border-radius:64% 36% 46% 54%/38% 48% 52% 62%;}
@@ -183,11 +197,11 @@
 
 @keyframes float {
 	0%, to {transform:translateY(0)}
-	50% {transform:translateY(-.75%)}
+	50% {transform:translateY(-.8%)}
 }
 @-webkit-keyframes float {
 	0%, to {-webkit-transform:translateY(0)}
-	50% {-webkit-transform:translateY(-.75%)}
+	50% {-webkit-transform:translateY(-.8%)}
 }   
 
 @keyframes outHide {
