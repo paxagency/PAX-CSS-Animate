@@ -119,7 +119,7 @@
 
 /*ANIMATIONS*/
 @keyframes fade { from { opacity:0;} to { opacity:1;}}
-@-webkit-keyframes fadeIn { from { opacity:0;}} to { opacity:1;} }
+@-webkit-keyframes fadeIn { from { opacity:0;} to { opacity:1;} }
 
 @keyframes moveTop {from{transform: translateY(-25px);opacity:0;} to{transform: translateY(0%);opacity:1;}}
 @-webkit-keyframes moveTop {from{-webkit-transform: translateY(-25px);opacity:0;} to{-webkit-transform: translateY(0%);opacity:1;}}
@@ -136,10 +136,10 @@
 @keyframes slideTop {from{transform: translateY(-100%);opacity:0;} to{transform: translateY(0%);opacity:1;}}
 @-webkit-keyframes slideTop {from{-webkit-transform: translateY(-100%);opacity:0;} to{-webkit-transform: translateY(0%);opacity:1;}}
 
-@keyframes slideLeft {from{ transform: translateX(-100%);opacity:0;} to{translateX(0%);transform: translateX(0%);opacity:1;}}
+@keyframes slideLeft {from{ transform: translateX(-100%);opacity:0;} to{transform:translateX(0%);transform: translateX(0%);opacity:1;}}
 @-webkit-keyframes slideLeft {from{ -webkit-transform: translateX(-100%);opacity:0;} to{-webkit-transform: translateX(0%);opacity:1;}}
 
-@keyframes slideRight {from{transform: translateX(100%);opacity:0;} to{translateX(0%);transform: translateX(0%);;opacity:1;}}
+@keyframes slideRight {from{transform: translateX(100%);opacity:0;} to{transform:translateX(0%);transform: translateX(0%);;opacity:1;}}
 @-webkit-keyframes slideRight {from{-webkit-transform: translateX(100%);opacity:0;} to{-webkit-transform: translateX(0%);opacity:1;}}
 
 @keyframes slideBottom {from{transform: translateY(100%);opacity:0;} to{transform: translateY(0%);opacity:1;}}
@@ -231,4 +231,3 @@
 	87.5% {-webkit-transform: translateX(2px);}
     100% {-webkit-transform: translateX(0);}
 }
-
